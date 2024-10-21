@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mad Libs</title>
+</head>
+<body>
+
+<h1>Mad Libs</h1>
+<div>
+    <label for="typeOfBird">Type of Bird:</label>
+    <input type="text" id="typeOfBird" name="typeOfBird">
+</div>
+
+<div>
+    <label for="roommateName">Roommate Name:</label>
+    <input type="text" id="roommateName" name="roommateName">
+</div>
+
+<div>
+    <label for="noun">Noun:</label>
+    <input type="text" id="noun" name="noun">
+</div>
+
+<div>
+    <label for="liquid">Liquid:</label>
+    <input type="text" id="liquid" name="liquid">
+</div>
+
+<div>
+    <label for="bodyPart">Body Part:</label>
+    <input type="text" id="bodyPart" name="bodyPart">
+</div>
+
+<div>
+    <button onclick="generateMadlib()">Generate Mad Lib</button> 
+    <span id="MadLibButton"></span>
+</div>
+
+<p id="mad-libs">
+    </p>
+
+<script src="index.js"></script>
+</body>
